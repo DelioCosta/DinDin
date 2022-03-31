@@ -8,19 +8,23 @@ main .container{
 
 .s1, .s3{
     background-color: white;
+    box-sizing: border-box;
 }
 
 .s2, .s4{
     background-color: #F7F7F7;
+    box-sizing: border-box;
 }
 
 .s1{
     height: 712px;
+    padding: 125px 206px 0px 206px;
 }
 
 .primeiro{
-    background: url('../img/ilustra-banner.png') right no-repeat;
-    padding: 125px 206px 66px 206px;
+    background: url('../img/ilustra-banner.png') 100% 10px no-repeat;
+    background-size: 501px 511px;
+    height: 587px; 
 }
 
 .primeiro h1{
@@ -36,7 +40,7 @@ main .container{
     font-weight: 400;
 }
 
-.primeiro h3{
+.primeiro a{
     width: 268px;
     font-size: 27px;
     font-weight: 400;
@@ -44,14 +48,16 @@ main .container{
     border: 2px solid #FF4081;
     border-radius: 62px;
     text-align: center;
+    text-decoration: none;
+    padding: 9px 26px;
 }
 
 .s2{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     height: 730px;
-    padding: 109px 0px 117px 128px;
+    padding: 109px 129px 117px 128px;
 }
 
 .curso{
@@ -81,7 +87,7 @@ main .container{
     justify-content: center;
 }
 
-.curso h5{
+.curso a{
     font-size: 20px;
     font-weight: 400;
     color: white;
@@ -90,6 +96,7 @@ main .container{
     border-radius: 62px;
     text-transform: lowercase;
     width: 233px;
+    text-decoration: none;
 }
 
 section > h2{
@@ -97,6 +104,8 @@ section > h2{
     font-weight: 700;
     font-size: 37px;
     text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 78px;
 }
 
 .s3{
@@ -113,7 +122,6 @@ section > h2{
 .comentario{
     display: flex;
     width: 591px;
-    padding-right: 96px;
     margin-bottom: 86px;
 }
 
@@ -141,13 +149,29 @@ section > h2{
 
 .conteudos-extras{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+}
+
+.s4{
+    height: 730px;
+    padding-left: 128px;
+    padding-right: 137px;
+    padding-top: 91px;
+}
+
+.s4 h2{
+    margin-bottom: 73px;
 }
 
 .s4 div{
     display: flex;
     justify-content: center;
+    margin-top: 111px;
+}
+
+.extra{
+    width: 319px;
 }
 
 .extra h4{
@@ -163,7 +187,7 @@ section > h2{
     margin: 0;
 }
 
-.s4 h3{
+.s4 a{
     width: 289px;
     font-size: 25px;
     font-weight: 400;
@@ -171,9 +195,9 @@ section > h2{
     border: 2px solid #FF4081;
     border-radius: 62px;
     text-align: center;
+    text-decoration: none;
 }
 
 .extra {
     width: 319px;
-
 }
