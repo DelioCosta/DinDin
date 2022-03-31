@@ -1,0 +1,50 @@
+.fundo-cinza{
+    height: 899px;
+    padding: 79px 129px 100px 128px;
+    background: #F6F6F6;
+}
+
+.cursos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.curso{
+    width: auto;
+    height: 564px;
+    text-align: center;
+}
+
+.curso img{
+    width: auto;
+    height: 270px;
+}
+
+.curso h4{
+    font-size: 25px;
+    font-weight: 700;
+    color: #FF4081;
+}
+
+.curso p{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.comecar-agora{
+    display: flex;
+    justify-content: center;
+}
+
+.curso a{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: #FF4081;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    text-transform: lowercase;
+    width: 233px;
+    text-decoration: none;
+}
