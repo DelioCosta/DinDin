@@ -102,3 +102,45 @@ main .container{
     padding: 19px 0;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 769px) {
+
+    .fundo-branco{
+        padding: 111px 102px;
+        height: auto;
+    }
+    .fundo-branco img{
+        width: 564px;
+        height: auto;
+    }
+
+    .fundo-cinza{
+        height: auto;
+    }
+
+    .cursos{
+        justify-content: space-evenly;
+    }
+
+}
+
+@media only screen and (max-width: 481px) {
+
+    .fundo-branco{
+        padding: 111px 51px;
+        height: auto;
+    }
+    .fundo-branco img{
+        width: 379px;
+        height: auto;
+    }
+
+    .fundo-cinza{
+        height: auto;
+    }
+
+    .cursos{
+        justify-content: space-evenly;
+    }
+
+}
