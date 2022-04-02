@@ -67,3 +67,50 @@
     font-weight: 300;
     margin: 0;
 }
+
+@media only screen and (max-width: 769px) {
+
+    .fundo-branco{
+        padding: 111px 102px;
+        height: auto;
+    }
+    .primeiro{
+        background: none;
+        height: auto;
+        padding: 0;
+    }
+
+    .primeiro h1{
+        width: auto;
+    }
+
+    .fundo-cinza{
+        height: auto;
+    }
+
+    .aula{
+        padding: 75px 50px;
+    }
+
+}
+
+@media only screen and (max-width: 481px) {
+
+    .fundo-branco{
+        padding: 111px 51px;
+        height: auto;
+    }
+    .fundo-branco img{
+        width: 379px;
+        height: auto;
+    }
+
+    .fundo-cinza{
+        height: auto;
+    }
+
+    .cursos{
+        justify-content: space-evenly;
+    }
+
+}
